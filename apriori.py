@@ -46,3 +46,43 @@ else:
         print(rules.sort_values(by="lift", ascending=False).head(10))
     else:
         print("⚠️ No frequent itemsets found. Try lowering min_support or reducing item filtering.")
+
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(8,6))
+plt.scatter(rules['support'], rules['confidence'], alpha=0.6, edgecolors='r')
+plt.xlabel('Support')
+plt.ylabel('Confidence')
+plt.title('Support vs Confidence for Association Rules')
+plt.grid(True)
+plt.show()
+
+import networkx as nx
+
+# Select top N rules by lift for clarity
+top_rules = rules.sort_values('lift', ascending=False).head(20)
+
+G = nx.DiGraph()
+
+# Add edges for each rule
+for _, row in top_rules.iterrows():
+    for antecedent in row['antecedents']:
+        for consequent in row['consequents']:
+            G.add_edge(antecedent, consequent, weight=row['lift'])
+
+plt.figure(figsize=(12,8))
+pos = nx.spring_layout(G, k=0.5, iterations=20)
+edges = G.edges(data=True)
+
+# Draw nodes
+nx.draw_networkx_nodes(G, pos, node_size=2000, node_color='lightblue')
+# Draw edges
+nx.draw_networkx_edges(G, pos, arrowstyle='->', arrowsize=20, edge_color='gray')
+# Draw labels
+nx.draw_networkx_labels(G, pos, font_size=10)
+
+plt.title('Top Association Rules Network Graph')
+plt.axis('off')
+plt.show()
+
