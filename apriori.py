@@ -58,9 +58,7 @@ plt.ylabel('Confidence')
 plt.title('Support vs Confidence for Association Rules')
 plt.grid(True)
 plt.show()
-
-
-
+# Create a network graph of the top association rules
 # Select top N rules by lift for clarity
 top_rules = rules.sort_values('lift', ascending=False).head(20)
 
