@@ -84,4 +84,3 @@ nx.draw_networkx_labels(G, pos, font_size=10)
 plt.title('Top Association Rules Network Graph')
 plt.axis('off')
 plt.show()
-
