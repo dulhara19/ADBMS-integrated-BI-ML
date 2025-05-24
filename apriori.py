@@ -47,8 +47,9 @@ else:
     else:
         print("⚠️ No frequent itemsets found. Try lowering min_support or reducing item filtering.")
 
-
+#lets plot now
 import matplotlib.pyplot as plt
+import networkx as nx
 
 plt.figure(figsize=(8,6))
 plt.scatter(rules['support'], rules['confidence'], alpha=0.6, edgecolors='r')
@@ -58,7 +59,7 @@ plt.title('Support vs Confidence for Association Rules')
 plt.grid(True)
 plt.show()
 
-import networkx as nx
+
 
 # Select top N rules by lift for clarity
 top_rules = rules.sort_values('lift', ascending=False).head(20)
