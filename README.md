@@ -65,4 +65,4 @@ The script will:
 - [requirements.txt](requirements.txt): Python dependencies
 - [csvdata.csv](csvdata.csv): (Optional) Example data file
 
-made by dulhara :)
+made by Dulhara :)
