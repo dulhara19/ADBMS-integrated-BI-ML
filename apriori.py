@@ -57,8 +57,12 @@ plt.xlabel('Support')
 plt.ylabel('Confidence')
 plt.title('Support vs Confidence for Association Rules')
 plt.grid(True)
-plt.show()
+# Save the Support vs Confidence plot
+plt.savefig('docs/static/support_confidence.png')  # Save in a "static" folder
+plt.close()  # Close the plot to avoid overlap
+
 # Create a network graph of the top association rules
+
 # Select top N rules by lift for clarity
 top_rules = rules.sort_values('lift', ascending=False).head(20)
 
@@ -83,4 +87,8 @@ nx.draw_networkx_labels(G, pos, font_size=10)
 
 plt.title('Top Association Rules Network Graph')
 plt.axis('off')
-plt.show()
+plt.savefig('docs/static/association_network.png')
+plt.close()
+
+
+
