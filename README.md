@@ -2,6 +2,7 @@
 
 This project performs Market Basket Analysis using the Apriori algorithm on transaction data from a MySQL database. It discovers frequent itemsets and association rules, and visualizes the results with scatter plots and network graphs.
 
+<img src="docs/screenshots/report.png" alt="Alt Text" width="200">
 [View Interactive Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=764021bf-d5fb-4ee2-8ce3-f089bdf6fd9f&autoAuth=true&ctid=9486ac65-39d3-4d25-977c-76d9c31c0046) 
 
 ## Features
