@@ -4,7 +4,7 @@ This project performs Market Basket Analysis using the Apriori algorithm on tran
 
 <img src="docs/screenshots/report.png" alt="powerbi report">
 
-[View Interactive Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=764021bf-d5fb-4ee2-8ce3-f089bdf6fd9f&autoAuth=true&ctid=9486ac65-39d3-4d25-977c-76d9c31c0046) 
+[View Interactive Dashboard](https://app.powerbi.com/reportEmbed?reportId=764021bf-d5fb-4ee2-8ce3-f089bdf6fd9f&autoAuth=true&ctid=9486ac65-39d3-4d25-977c-76d9c31c0046) 
 
 ## Features
 
@@ -14,6 +14,7 @@ This project performs Market Basket Analysis using the Apriori algorithm on tran
 - Generates association rules (support, confidence, lift)
 - Visualizes rules with matplotlib and networkx
 
+### Customer buying patterns
 <div display="flex">
 <img src="docs/screenshots/network1.png"  width="50%" alt="powerbi report"><img src="docs/screenshots/network2.png"  width="50%" alt="powerbi report"></div>
 
