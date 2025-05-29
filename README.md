@@ -4,7 +4,11 @@ This project performs Market Basket Analysis using the Apriori algorithm on tran
 
 <img src="docs/screenshots/report.png" alt="powerbi report">
 
-[View Interactive Dashboard](https://app.powerbi.com/reportEmbed?reportId=764021bf-d5fb-4ee2-8ce3-f089bdf6fd9f&autoAuth=true&ctid=9486ac65-39d3-4d25-977c-76d9c31c0046) 
+[View Interactive Dashboard](https://app.powerbi.com/reportEmbed?reportId=764021bf-d5fb-4ee2-8ce3-f089bdf6fd9f&autoAuth=true&ctid=9486ac65-39d3-4d25-977c-76d9c31c0046)
+
+if you need access to the powerBI report, just let me know by sending access request. Feel free to contact me at : [kldkaluthotage@students.nsbm.ac.lk](kldkaluthotage@students.nsbm.ac.lk)     
+
+ if you clone the repository, just run index.html file
 
 ## Features
 
