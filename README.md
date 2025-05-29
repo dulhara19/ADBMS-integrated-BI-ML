@@ -28,7 +28,7 @@ python apriori.py
 <img src="docs/screenshots/network1.png"  width="50%" alt="powerbi report"><img src="docs/screenshots/network2.png"  width="50%" alt="powerbi report"></div>
 
 ### Math behind Apriori
- <div><img src="docs/screenshots/math_behind_aprioi.png"  width="69%" alt="powerbi report"></div>
+ <div><img style="display: block" src="docs/screenshots/math_behind_aprioi.png" style="justify-items:center" max-width="80%" alt="powerbi report"></div>
 
 ## Requirements
 
