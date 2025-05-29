@@ -14,6 +14,9 @@ This project performs Market Basket Analysis using the Apriori algorithm on tran
 - Generates association rules (support, confidence, lift)
 - Visualizes rules with matplotlib and networkx
 
+<div display="flex">
+<img src="docs/screenshots/network1.png"  width="50%" alt="powerbi report"><img src="docs/screenshots/network2.png"  width="50%" alt="powerbi report"></div>
+
 ## Requirements
 
 - Python 3.8+
