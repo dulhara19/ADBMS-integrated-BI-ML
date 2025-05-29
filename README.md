@@ -8,7 +8,12 @@ This project performs Market Basket Analysis using the Apriori algorithm on tran
 
 if you need access to the powerBI report, just let me know by sending access request. Feel free to contact me at : [kldkaluthotage@students.nsbm.ac.lk](kldkaluthotage@students.nsbm.ac.lk)     
 
- if you clone the repository, just run index.html file
+ if you clone the repository, 
+Run the main script:
+```sh
+python apriori.py
+```
+ then just run index.html file
 
 ## Features
 
